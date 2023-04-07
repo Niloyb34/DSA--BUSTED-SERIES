@@ -97,7 +97,7 @@ void deleteNode(int position,Node* &head)
         Node* curr=head;
         Node* prev=NULL;
         int cnt=1;
-        while(cnt<=position)
+        while(cnt<position)
         {
             prev=curr;
             curr=curr->next;
@@ -127,7 +127,7 @@ int main()
     print(head);
     cout<<"HEAD "<<head->data<<endl;
     cout<<"Tail  "<<tail->data<<endl;
-    deleteNode(1,head);///First node take delete korlam
+    deleteNode(3,head);///atar dara jekono node ke delete kora possible easily first second third jekona ta
     print(head);
 
 }
