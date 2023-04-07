@@ -127,7 +127,7 @@ int main()
     print(head);
     cout<<"HEAD "<<head->data<<endl;
     cout<<"Tail  "<<tail->data<<endl;
-    deleteNode(1,head);
+    deleteNode(1,head);///First node take delete korlam
     print(head);
 
 }
