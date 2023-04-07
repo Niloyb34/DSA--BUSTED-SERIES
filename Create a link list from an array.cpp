@@ -4,7 +4,7 @@ void createLinkedList(int arr[],int size);
 int main()
 {
     int arr[]={5,10,30};
-    createLinkedList(arr,3);
+    createLinkedList(arr,3);/////////////////bangla codibng tuitor
     return 0;
 }
 void createLinkedList(int arr[],int size)
