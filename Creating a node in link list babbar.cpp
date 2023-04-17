@@ -8,7 +8,7 @@ public:
 };
 int main()
 {
-   Node* node1=new Node();
+   Node* node1=new Node();///Aiknae Node() ata akta default constructor ja class take access korbe
    cout<<node1->data<<endl;///mane node 1 er data dekabe
    cout<<node1->next<<endl;///mane node 1 er address dekabe
 }
