@@ -46,7 +46,7 @@ int main()
    //cout<<node1->data<<endl;///mane no de 1 er data dekabe aikane 10 dekabe
    //cout<<node1->next<<endl;///mane node 1 er address dekabe and node 1 er address e NULL dekabe
    ///HEAD POINTED TO NODE 1
-   Node *head=node1;
+   Node *head=node1;//mane head akta pointer ja node typer mane kemon pointer?ja kono node ke point kore aiknae node 1 ke point kore
   // Node *tail=node1;
    print(head);
    insertAtHead(head,12);
