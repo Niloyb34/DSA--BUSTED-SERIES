@@ -13,6 +13,7 @@ public:
     ///destructor
     ~Node()
     {
+        ///muloto je Node take delete korbo take memeory teke free korte ata use korbo jathe oi node ta memory te onno kauke denote na kore
         int value=this->data;
         ///MEmory free korar code
         if(this->next!=NULL)
