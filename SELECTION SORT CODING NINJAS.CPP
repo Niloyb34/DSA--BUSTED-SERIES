@@ -11,7 +11,7 @@ void selectionSort(vector<int>& arr, int n)
             if(arr[j] < arr[minIndex])
             {
                 minIndex = j;
-                ////aikane only variable declare ba use korci tie O(1) complexity
+                ////aikane only variable declare ba use korci tie O(1) hbe space complexity
             }
         }
         swap(arr[i], arr[minIndex]);
